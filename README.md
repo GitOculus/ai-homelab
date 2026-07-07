@@ -4,6 +4,7 @@ Dette repository dokumenterer et personligt AI-homelab bygget op omkring [Hermes
 
 | Projekt | Hvad det viser |
 |---|---|
+| [Sentry](projects/sentry/) | Et selv-hostet investeringsdashboard med signalmotor, der oversætter 36 års AAII-regler til eksekverbar kode. Dataintegration (FRED, Yahoo, AAII), backtesting, signal-evaluering. |
 | [Optik Job Pipeline](projects/optik-job-pipeline/) | En agent, der tager et stillingsopslag og producerer et målrettet CV og en ansøgning, og lærer af hver kørsel. Struktureret intake, dokumentgenerering, iterativ forbedring. |
 | [Seniorer og SeniorKlar Audit](projects/seniorer-og-seniorklar-audit/) | En browserbaseret gennemgang af en reel organisations fem websites — brugervenlighed, navigation, tilgængelighed for et ældre publikum. Agenten som research-assistent, ikke som kodegenerator. |
 | [Ultima Dawn](projects/ultima-dawn/) | Et personligt spildesignprojekt styret gennem domænespecialiserede agentprofiler og en orkestrator. Profil-per-kapacitet-routing, kanban-workflow, kreativt samarbejde. |

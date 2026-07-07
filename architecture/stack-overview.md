@@ -72,3 +72,11 @@ To routingstrategier arbejder sammen: `dispatch-route.py` klassificerer kanban-o
 ### Pipeline-eksempel: Seniorer og SeniorKlar Audit
 
 Agenten fik et brief om at revidere et medlemsorganisations digitale økosystem på fem websites for brugervenlighed, tilgængelighed og medlemsrejse-friktion. Ved at bruge browserautomation som en enkelt besøgende bruger besøgte den hvert site side for side, katalogiserede tværgående navigationshuller, nyhedsbrevsduplikering, login-friktion og mobil-brugervenlighed. Den producerede et struktureret findings-dokument med prioriterede anbefalinger og annoterede screenshots — alt sammen leveret gennem den samme Signal-kanal, Thomas bruger til alt andet. Opgaven viste agenten som research-assistent, ikke som kodegenerator.
+
+### Projekt: Sentry — Investeringsdashboard
+
+Sentry er et selv-hostet dashboard, der overvåger aktieindeks, makrodata, markedsstemning og en signalmotor baseret på Thomas' egne AAII Asset Allocation-regler. Systemet henter data fra Yahoo Finance, FRED, AAII, CBOE og multpl.com, evaluerer signalregler månedligt, og viser resultater i en webfrontend (FastAPI + FastHTML + Chart.js).
+
+Sentry viser en anden side af agentens kapacitet: dataintegration på tværs af seks kilder med forskellige formater og frekvenser, oversættelse af et regnearks regelsæt til eksekverbar kode, og backtesting som bevis på at reglerne virker — 10,8% CAGR mod 9,0% for buy-and-hold, med halveret drawdown.
+
+Dashboardet er én af fire aktive projekter i homelabet ved siden af Optik, Seniorer-auditten og Ultima Dawn.
