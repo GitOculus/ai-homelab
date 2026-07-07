@@ -11,6 +11,12 @@ Dette repository dokumenterer et personligt AI-homelab bygget op omkring [Hermes
 
 ## Projekter
 
+### Sentry — Investeringsdashboard
+
+Selv-hostet dashboard med signalmotor, der overvåger aktieindeks, makrodata, markedsstemning og Thomas' egne AAII Asset Allocation-regler. Seks datakilder (Yahoo Finance, FRED, AAII, CBOE, multpl.com) samles i én webfrontend — data kommer ind, signaler evalueres, resultater vises.
+
+Sentrys regler sad oprindeligt i et Google Sheet med 443 måneders data. At gøre dem til eksekverbar kode krævede en kopitest, der reducerede syv signaltyper til én købs- og én salgsregel, og en kodetest, der ryddede ud i død kode fra tidligere iterationer. Backtest over 36 år: 10,8% CAGR mod 9,0% for S&P 500, med under halvt så stort maksimalt drawdown.
+
 ### Optik — Jobansøgningspipeline
 
 Agentstyret pipeline, der tager et stillingsopslag og producerer et målrettet CV og en ansøgning. Den repetitive del — at matche erfaring, vælge variant, ramme tonen — håndteres af agenten. Mennesket beholder de strategiske beslutninger. Pipeline bygget iterativt: hver reel brug afslørede et hul, hvert hul blev låst fast i en skill.
